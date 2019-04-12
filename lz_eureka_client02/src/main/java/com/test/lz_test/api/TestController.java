@@ -25,6 +25,6 @@ public class TestController {
     public String getHello(){
         String url= "http://lz-eureka-server01:8761";
         String forObject = restTemplate.getForObject(url, String.class);
-        return "这是spring could Client01访问。";
+        return "这是spring could Client02访问。";
     }
 }
