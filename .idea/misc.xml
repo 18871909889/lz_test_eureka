@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/lz_eureka_server/pom.xml" />
+        <option value="$PROJECT_DIR$/lz_eureka_client02/pom.xml" />
+        <option value="$PROJECT_DIR$/lz-eureka-clinent01/pom.xml" />
+        <option value="$PROJECT_DIR$/lz-eureka-client01/pom.xml" />
+        <option value="$PROJECT_DIR$/lz_eureka_server01/pom.xml" />
+        <option value="$PROJECT_DIR$/lz_rueeka-server02/pom.xml" />
+        <option value="$PROJECT_DIR$/lz_eureka-client03/pom.xml" />
+        <option value="$PROJECT_DIR$/lz_eureka-server03/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="lz-eureka" />
+        <module name="lz-eureka-sever02" />
+        <module name="lz_eureka-client03" />
+        <module name="lz_eureka-server03" />
+        <module name="lz_eureka_client02" />
+        <module name="lz_rueeka-server02" />
+        <module name="lz_test" />
+        <module name="lz_test (1) (com.test)" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="lz-eureka-clinent01" target="1.8" />
+      <module name="lz-eureka-sever02" target="1.8" />
+      <module name="lz_eureka_client01" target="1.8" />
+      <module name="lz_eureka_server" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
