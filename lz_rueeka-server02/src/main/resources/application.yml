@@ -1,14 +1,14 @@
 
 server:
-  port: 8762 # 8761ÊÇeureka serverµÄÄ¬ÈÏ¶Ë¿Ú
+  port: 8762 # 8761ï¿½ï¿½eureka serverï¿½ï¿½Ä¬ï¿½Ï¶Ë¿ï¿½
 eureka:
   server:
-    enable-self-preservation: true #·ÀÖ¹ÓÉÓÚEurekaµÄ»úÖÆµ¼ÖÂClient±»´íÎóÏÔÊ¾ÔÚÏß ½öÔÚ¿ª·¢»·¾³Ê¹ÓÃ
+    enable-self-preservation: true #ï¿½ï¿½Ö¹ï¿½ï¿½ï¿½ï¿½Eurekaï¿½Ä»ï¿½ï¿½Æµï¿½ï¿½ï¿½Clientï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ú¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¹ï¿½ï¿½
   client:
     service-url:
-      defaultZone: http://localhost:8761/eureka/,http://localhost:8763/eureka/ #Õâ±ãÊÇ´Ëeureka serverµÄÓ¦ÓÃ×¢²áµØÖ·
-    register-with-eureka: true #±íÊ¾ÊÇ·ñ½«×Ô¼º×¢²áµ½Eureka ServerÉÏ£¬Ä¬ÈÏÎªtrue
-    fetch-registry: true       #±íÊ¾ÊÇ·ñ´ÓEureka ServerÉÏ»ñÈ¡×¢²áĞÅÏ¢£¬Ä¬ÈÏÎªtrue
+      defaultZone: http://localhost:8761/eureka/,http://localhost:8763/eureka/ #ï¿½ï¿½ï¿½ï¿½Ç´ï¿½eureka serverï¿½ï¿½Ó¦ï¿½ï¿½×¢ï¿½ï¿½ï¿½Ö·
+    register-with-eureka: true #ï¿½ï¿½Ê¾ï¿½Ç·ï¿½ï¿½Ô¼ï¿½×¢ï¿½áµ½Eureka Serverï¿½Ï£ï¿½Ä¬ï¿½ï¿½Îªtrue
+    fetch-registry: true       #ï¿½ï¿½Ê¾ï¿½Ç·ï¿½ï¿½Eureka Serverï¿½Ï»ï¿½È¡×¢ï¿½ï¿½ï¿½ï¿½Ï¢ï¿½ï¿½Ä¬ï¿½ï¿½Îªtrue
 spring:
   application:
-    name: lz-eureka-server02
+    name: lz-eureka-server

@@ -16,12 +16,13 @@ import org.springframework.web.client.RestTemplate;
  * @date 2019-04-12  9:39
  */
 @RestController
+@RequestMapping("/")
 public class TestController {
 
     @Autowired
     RestTemplate restTemplate;
 
-    @RequestMapping("/getHello")
+    @RequestMapping("/")
     public String getHello(){
         String url= "http://lz-eureka-server01:8761";
         String forObject = restTemplate.getForObject(url, String.class);

@@ -1,13 +1,10 @@
-package com.test.lzeureka.api;
+package com.test.lz_test.api;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.redis.core.StringRedisTemplate;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
-
-import java.net.URL;
-import java.util.Map;
 
 /**
  * 描述：客户端负载均衡的访问服务端，如果8761挂了 会自动访问负载的其他注册中 （8762）
@@ -30,6 +27,6 @@ public class TestController {
     public String getHello(){
         String url= "http://lz-eureka-server01:8761";
 //        String forObject = restTemplate.getForObject(url, String.class);
-        return "这是spring could Client01访问。";
+        return "这是spring could Client03访问。";
     }
 }
