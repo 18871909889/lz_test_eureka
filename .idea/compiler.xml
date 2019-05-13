@@ -14,7 +14,7 @@
         <module name="lz_eureka_client02" />
         <module name="lz_rueeka-server02" />
         <module name="lz_test (1) (com.test)" />
-        <module name="lz_test_eureka" />
+        <module name="spring-swgger" />
         <module name="zuul-gateway" />
       </profile>
     </annotationProcessing>

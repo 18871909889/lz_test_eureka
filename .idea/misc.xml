@@ -14,6 +14,7 @@
         <option value="$PROJECT_DIR$/lz_eureka-client03/pom.xml" />
         <option value="$PROJECT_DIR$/lz_eureka-server03/pom.xml" />
         <option value="$PROJECT_DIR$/zuul-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-swgger/pom.xml" />
       </list>
     </option>
   </component>

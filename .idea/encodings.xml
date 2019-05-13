@@ -2,13 +2,12 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/lz-eureka-client01" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lz-eureka-sever02" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lz_eureka-client03" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lz_eureka-server03" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lz_eureka_client01" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lz_eureka_client02" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lz_eureka_server01" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lz_rueeka-server02" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-swgger" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/zuul-gateway" charset="UTF-8" />
   </component>
 </project>
